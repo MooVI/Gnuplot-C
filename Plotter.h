@@ -51,7 +51,7 @@ public:
     void readfromFile (std::string iName, X& x);
     void wait (){
         int x;
-        std::system("read");
+        std::cin.get();
     }
     ~Plotter();
 };
